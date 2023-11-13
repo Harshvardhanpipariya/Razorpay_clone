@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  
-    "start" : "vite"
+    "start": "vite"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "feather": "^0.0.5",
     "vite": "^4.5.0"
   },
   "devDependencies": {
