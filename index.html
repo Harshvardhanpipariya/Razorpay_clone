@@ -38,7 +38,7 @@
       <!-- navBar -->
       <nav class="bg-deepBlue">
         <div
-          class="relative w-[1080px] mx-auto flex items-center justify-between"
+          class="relative lg:w-[1080px] md:w-[738px] sm:w-[610px] mx-auto flex items-center justify-between"
         >
           <!-- logo -->
           <a href="/" class="cursor-pointer py-7 pr-7">
@@ -119,12 +119,19 @@
               class="hidden lg:block"
             />
 
-            <button
+           
+
+            <div class="flex items-center gap-4">
+
+              <button
               class="py-3 px-5 font-mullish text-white border-lightBlue border rounded-sm text-sm font-bold"
             >
               Log in
             </button>
-
+            <div class="lg:hidden block">
+            <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
+          </div>
+          </div>
             <button
               class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500 hidden lg:flex"
             >
@@ -2221,5 +2228,6 @@
     <script>
       feather.replace();
     </script>
+        <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
   </body>
 </html>
